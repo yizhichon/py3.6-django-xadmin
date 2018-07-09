@@ -1,0 +1,20 @@
+{% extends 'org_base.html' %}
+{% block title %}机构介绍{% endblock %}
+{% block page_path %}机构介绍{% endblock %}
+{% block right_form %}
+    <div class="right companycenter layout">
+        <div class="head">
+            <h1>机构介绍</h1>
+        </div>
+        <div class="des">
+
+            <p>
+            <p>&nbsp;
+            <p class="ue_t" style="text-indent:2em;">{{ course_org.desc }}</p>
+            <p>
+                <img src="http://api.map.baidu.com/staticimage?center=116.410899,39.863624&zoom=11&width=530&height=340&markers=116.404,39.915"
+                     width="530" height="340"/></p>
+
+        </div>
+    </div>
+{% endblock %}
